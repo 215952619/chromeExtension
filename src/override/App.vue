@@ -1,15 +1,13 @@
 <template>
     <div class="full" :style="{ backgroundImage: `url(${image})` }">
-        <hello-world />
+        <el-button>button</el-button>
     </div>
 </template>
 
 <script>
-import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
     name: "App",
-    components: { HelloWorld },
+    components: {},
     data() {
         return {
             image: require("@/assets/bgi.jpeg"),
